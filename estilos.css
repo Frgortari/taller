@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+
+
+body { background-color: #FFF5F5;
+  font-family: Playfair Display, serif;
+  color:#303346;
+}
+
+
+
+#menu  {
+    font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+  list-style:none;
+ }
+
+ li  {
+  list-style:none;
+ }
+
+
+h1 {
+    font-size: 140px;
+    letter-spacing: -8px;
+}
+
+
+h2 {
+    font-size: 18px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: left;
+
+}
+
+h3 {
+    font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.tituloescrito {
+    font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+p {
+    font-weight: 400;
+  line-height: 24px;
+  font-size: 18px;
+  text-align: left;
+  padding: 0px;
+  border: 0;
+  margin: 10x;
+
+}
+
+.nombre
+{
+  font-size: 120px;
+}
+
+.apellido
+{
+  font-size: 36px;
+  font-style: italic;
+}
+
+.bajaja
+{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.instagram
+{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+  color:#303346;
+}
+
+
+a:hover {
+   font-weight: 900;
+
+
+  }
