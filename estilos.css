@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
 
 
+html {
+        scroll-behavior: smooth;
+       /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
+       para probar la diferencia con y sin scroll suavizado*/
+    }
+
+
+
 * {
 margin: 0;
 padding: 0;
-
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
@@ -17,8 +24,17 @@ color:#303346;
 background-color: #FFF5F5;
 margin-left: auto;
 margin-right: auto;
-
 }
+
+nav {
+  position: fixed;
+  background-color: #FFF5F5;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+
+
 
 /*menu*/
 
@@ -26,18 +42,21 @@ margin-right: auto;
 margin: auto;
 max-width:  1280px;
 
-
 }
 
+
+.menu {
+margin: auto;
+width: 100%
+
+}
 
 .textos {
 overflow: hidden;
 margin: auto;
 max-width:  1280px;
 margin-top: 60px;
-margin-bottom: 200px;
-
-
+margin-bottom: 0px;
 
 }
 
@@ -49,7 +68,6 @@ color:#303346;
 overflow: hidden;
 background-color: #FFF5F5;
 
-
 }
 
 
@@ -60,7 +78,6 @@ font-style: italic;
 color:#303346;
 overflow: hidden;
 background-color: #FFF5F5;
-
 
 }
 
@@ -75,7 +92,6 @@ margin-left: 106px;
 
 .inicio .menu .autoras {
 float: right;
-margin-right: 86px;
 margin-left: 106px;
 
 
@@ -86,6 +102,7 @@ list-style:none;
 display: inline-block;
 padding-right: 20px;
 padding-top: 20px;
+display: inline-block;
 
 
 
@@ -115,7 +132,7 @@ overflow: hidden;
 background-image: url("https://raw.githubusercontent.com/FranciscaGortari/taller/master/fondo.png");
 max-height: 560px;
 margin-top: 150px;
-margin-bottom: 200px;
+margin-bottom: 260px;
 
 
 
@@ -126,9 +143,11 @@ margin-bottom: 200px;
 .home a {
 text-decoration: none;
 color:#303346;
+
 }
 
-.home a:hover {
+.home a:hover
+{
 color: black;
 }
 
@@ -171,6 +190,7 @@ padding-top: 40px;
 
 p{
 font: 36px;
+padding-bottom: 35px;
 
 
 
@@ -183,7 +203,7 @@ font: 36px;
 
 .autora {
 background-color: #FFF5F5;
-width: 30%;
+width: 40%;
 float: left;
 display: inline-block;
 margin-left: 106px;
@@ -194,7 +214,7 @@ margin-left: 106px;
 .autora a {
 text-decoration: none;
 color:#303346;
-}
+font-weight: bold;}
 
 .autora a:hover {
 color: black;
@@ -210,6 +230,7 @@ color: #989898;
   border-bottom: solid 1px #303346;
   padding-bottom: 20px;
   display: inline-block;
+  font-style: italic;
 }
 
 
@@ -219,11 +240,11 @@ color: #989898;
 
 .texto {
 background-color: #FFF5F5;
-width: 28%;
+width: 25%;
 float: right;
 display: inline-block;
-padding-right: 40px;
-padding-top: 40px;
+padding-right: 60px;
+padding-bottom: 20px;
 
 
 }
@@ -232,6 +253,7 @@ padding-top: 40px;
   font-size: 20px;
   padding-bottom: 20px;
   border-bottom: solid 1px #303346;
+  padding-top: 23px;
 }
 
 
@@ -239,6 +261,7 @@ padding-top: 40px;
 .texto p {
   font-size: 18px;
   padding-top: 40px;
+
 }
 
 
@@ -272,6 +295,7 @@ padding-bottom: 40px;
   background-color: white;
   margin: auto;
   text-align: center;
+  font-size: 14px;
 
 }
 
@@ -290,5 +314,18 @@ padding-top: 40px;
 .imgfooter {
 width: 30px;
 padding-left: 10px;
+padding-top: 10px;
+
+}
+
+
+
+.arriba {
+
+  max-width: 1280px;
+  margin: auto;
+  text-align: right;
+  padding-right: 86px;
+  margin-bottom: 100px;
 
 }
