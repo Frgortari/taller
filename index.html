@@ -829,7 +829,21 @@ La idea de fantasear con finales trágicos.</p>
 
 </section>
 
+<form action="envia.php" method="post" class="form-consulta">
+  <label>Nombre: <span>*</span>
+    <input type="text" name="nombre" placeholder="Nombre" class="campo-form" required>
+  </label>
 
+  <label>Email: <span>*</span>
+    <input type="email" name="email" placeholder="Email" class="campo-form" required>
+  </label>
+
+  <label>Dejanos tu comentarios:
+    <textarea name="consulta" class="campo-form"></textarea>
+  </label>
+
+  <input type="submit" value="Enviar" class="btn-form">
+</form>
 
 
 <section class="footer">
