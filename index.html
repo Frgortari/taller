@@ -829,24 +829,22 @@ La idea de fantasear con finales trágicos.</p>
 
 </section>
 
-<aside> 
- 
-<H1>Formulario de contacto HTML5/CSS3/PHP</H1>
-<a href="http://www.internetedadinero.com">¿Como se hace?</a> | <a href="http://www.internetedadinero.com">Descargar Archivos</a>
-<hr>
-<FORM ACTION="enviar_email.php" METHOD="post"> 
- 
-<label for="first_name">Nombre</label> <INPUT type="text" size=36 name="first_name"></INPUT> 
-<label for="last_name">Apellido</label> <INPUT type="text" size=36 name="last_name"></INPUT> 
-<label for="email">E-mail</label> <INPUT type="email" size=36 name="email"></INPUT> 
-<label for="telephone">Teléfono</label> <INPUT type="tel" size=36 name="telephone"></INPUT> 
-<label for="message">Mensaje</label> <TEXTAREA rows=5 cols=30 name="message"></TEXTAREA> 
-<br>
-<INPUT type="reset" value="Borrar"> <INPUT type="submit" value="Enviar">
- 
-</FORM> 
- 
-</aside>
+  <form action="envia.php" method="post" class="form-consulta">
+  <label>Nombre y apellido: <span>*</span>
+    <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+  </label>
+
+  <label>Email: <span>*</span>
+    <input type="email" name="email" placeholder="Email" class="campo-form" required>
+  </label>
+
+  <label>Consulta:
+    <textarea name="consulta" class="campo-form"></textarea>
+  </label>
+
+  <input type="submit" value="Enviar" class="btn-form">
+</form>
+
 
 
 
